@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="วิธีใช้"
+        android:text="@string/Halp"
         android:id="@+id/textView8"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="1. กดที่ปุ่มผู้ใช้ทั่วไป
-2. กรอกเลขคิวของตนเอง
-3. กำหนดเลขที่ต้องการจะแจ้งเตือน"
+        android:text="@string/info"
         android:id="@+id/textView9"
-        android:layout_gravity="center_horizontal" />
-</LinearLayout>
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info1"
+        android:id="@+id/textView11"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info2"
+        android:id="@+id/textView12"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp" />
+</RadioGroup>

@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">ระบบเตือนบัตรคิว</string>
+    <string name="info">1. กดที่ปุ่มผู้ใช้ทั่วไป</string>
+    <string name="info1">2. กรอกเลขคิวของตนเอง</string>
+    <string name="info2">3. กำหนดเลขที่ต้องการจะแจ้งเตือน</string>
+    <string name="Halp">วิธีใช้</string>
+    <string name="admin">เจ้าหน้าที่</string>
+    <string name="user">ผู้ใช่ทั่วไป</string>
+    <string name="Hi">ยินดีต้อนรับ</string>
+    <string name="name">Name</string>
+    <string name="pass">Password</string>
+    <string name="submit">OK</string>
+    <string name="number">กรุณากรอกหมายเลขคิว</string>
+    <string name="option">กำหนดก่อนการแจ้งเตือน</string>
+    <string name="head">สถานะคิว</string>
 </resources>

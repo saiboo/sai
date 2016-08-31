@@ -36,7 +36,7 @@
         <Button
         android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:text="ผู้ใช้ทั่วไป"
+        android:text="@string/user"
         android:width="170dp"
         android:textSize="25dp"
         android:id="@+id/button01"
@@ -52,7 +52,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="60dp"
-            android:text="เจ้าหน้าที่"
+            android:text="@string/admin"
             android:width="170dp"
             android:textSize="25dp"
             android:id="@+id/button02"
